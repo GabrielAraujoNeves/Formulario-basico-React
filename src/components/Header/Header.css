@@ -1,0 +1,29 @@
+.container{
+    width: 100vw;
+    height: 8vh;
+    background-color: #ffffff;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    gap: 16px;
+}
+
+.navBar{
+    background-color: #e72525;
+    width: 50%;
+}
+
+.listaDeContato{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
